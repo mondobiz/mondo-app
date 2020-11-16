@@ -6,6 +6,8 @@
 ### -You can search the page for info on the stories and art and music
 ### -Solve puzzles to get more content
 
+
+
 # CRUD Requirements
 ## Create
 ### Sections of site saved in library from user
