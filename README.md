@@ -1,10 +1,10 @@
 
 # What is the MondoApp?
-## -App you can organize stories and data on for my art
-## -Over the years I have been working on an open world story combining my art. I would like to make an app organizing and showcasing my stories
-## -I wrote an open world story and I want to make it into an app that people can look through and read and keep up with content
-## -You can search the page for info on the stories and art and music
-## -Solve puzzles to get more content
+### -App you can organize stories and data on for my art
+### -Over the years I have been working on an open world story combining my art. I would like to make an app organizing and showcasing my stories
+### -I wrote an open world story and I want to make it into an app that people can look through and read and keep up with content
+### -You can search the page for info on the stories and art and music
+### -Solve puzzles to get more content
 
 # CRUD Requirements
 ## Create
