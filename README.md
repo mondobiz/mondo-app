@@ -22,6 +22,15 @@ The reason is optional if it's blatantly obvious.
   useCreateIndex: true
 } -->
 
+<!-- app.get('/destroy-route', function(req, res) {
+  req.session.destroy(function(err) {
+    if(err) {
+      do something if destroying the session fails
+    } else {
+      do something if destroying the session succeeds
+    }
+  });
+}); -->
 
 <!-- client id 279717204064-advpecc5n80il2b8adt7i91ppgbedmrb.apps.googleusercontent.com -->
 <!-- client secret NBBfEwfKVtO3BPqOpD-x29Rc -->
