@@ -10,9 +10,16 @@
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
-}); -->
+} -->
 
 <!-- mongodb+srv://admin:Mango383@cluster0.m0exe.mongodb.net/admin?retryWrites=true&w=majority -->
+
+
+<!-- https://git.heroku.com/bizzaro-app.git -->
+
+heroku config:set GOOGLE_CALLBACK=https://bizzaro-app.herokuapp.com/oauth2callback
+https://bizzaro-app.herokuapp.com/ | https://git.heroku.com/sei-students.git
+<!-- https://git.heroku.com/bizzaro-app.git -->
 
 # Wireframe of MondoApp 
 <img src="images/wireFrame2.jpg">
