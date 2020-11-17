@@ -1,9 +1,12 @@
 // Require Modules
 const express = require('express');
 const morgan = require('morgan');
-const port = process.env.PORT || '3000';
-const indexRouter = require('./routes/index');
 const session = require('express-session');
+const port = process.env.PORT || '3000';
+
+
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
 
 // Set up express app
 const app = express();
@@ -35,6 +38,7 @@ app.get('/times-visited', function(req, res) {
 });
 // Mount routes with app.use()
 app.use('/', indexRouter);
+app.use('/users', usersRouter);
 
 // Tell app to listen
 app.listen(port, function() {
