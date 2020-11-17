@@ -1,10 +1,20 @@
 
 # What is the MondoApp?
+### -Social media app you can share art, music, and stories and other people can comment and like
 ### -App you can organize stories and data on for my art
 ### -Over the years I have been working on an open world story combining my art. I would like to make an app organizing and showcasing my stories
 ### -I wrote an open world story and I want to make it into an app that people can look through and read and keep up with content
 ### -You can search the page for info on the stories and art and music
 ### -Solve puzzles to get more content
+### -Other members can comment and like other peoples art
+### -User can choose not to make their stuff public
+
+
+
+As a user, I want [feature], because [reason].
+
+The reason is optional if it's blatantly obvious.
+
 
   <!-- mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
@@ -12,14 +22,22 @@
   useCreateIndex: true
 } -->
 
-<!-- mongodb+srv://admin:Mango383@cluster0.m0exe.mongodb.net/admin?retryWrites=true&w=majority -->
 
+<!-- client id 279717204064-advpecc5n80il2b8adt7i91ppgbedmrb.apps.googleusercontent.com -->
+<!-- client secret NBBfEwfKVtO3BPqOpD-x29Rc -->
 
+<!-- mongodb+srv://admin:Mango383@cluster0.m0exe.mongodb.net/mondoData?retryWrites=true&w=majority -->
+
+<!-- heroku config:set GOOGLE_CALLBACK=https://bizzaro-app.herokuapp.com/oauth2callback
+https://bizzaro-app.herokuapp.com/ | https://git.heroku.com/sei-students.git -->
 <!-- https://git.heroku.com/bizzaro-app.git -->
 
-heroku config:set GOOGLE_CALLBACK=https://bizzaro-app.herokuapp.com/oauth2callback
-https://bizzaro-app.herokuapp.com/ | https://git.heroku.com/sei-students.git
-<!-- https://git.heroku.com/bizzaro-app.git -->
+<!-- heroku  https://git.heroku.com/bizzaro-app.git (fetch)
+heroku  https://git.heroku.com/bizzaro-app.git (push)
+origin  https://github.com/mondobiz/mondo-app.git (fetch)
+origin  https://github.com/mondobiz/mondo-app.git (push) -->
+
+
 
 # Wireframe of MondoApp 
 <img src="images/wireFrame2.jpg">
