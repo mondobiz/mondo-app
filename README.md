@@ -6,6 +6,19 @@
 ### -You can search the page for info on the stories and art and music
 ### -Solve puzzles to get more content
 
+  <!-- mongoose.connect(process.env.DATABASE_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true
+}); -->
+
+<!-- mongodb+srv://admin:Mango383@cluster0.m0exe.mongodb.net/admin?retryWrites=true&w=majority -->
+
+# Wireframe of MondoApp 
+<img src="images/wireFrame2.jpg">
+<img src="images/wireFrame3.jpg">
+<img src="images/wireFrame4.jpg">
+<img src="images/wireFrame5.jpg">
 
 
 # CRUD Requirements
@@ -17,9 +30,11 @@
 ### whenever you read something from the collecton the counter will update
 ## Delete
 ### after you're done reading you can delete the book from your library
-
+<br>
+ 
 # Link to Trello
 ## https://trello.com/b/NYdlcdNW
+<br>
 
 # Stretch Goal
 ### Puzzle Login
@@ -29,39 +44,49 @@
 
 ### -Opening page to go to section page
 ### -Have all arrays with an image and description build arrays for 
+<br>
 
 # Beware the Mondo Bizzaro
 ## -LANDING PAGE
+<br>
 
 # Bizzaro Collection
 ## -INDEX PAGE
+<br>
 
-## What's new in the Bizzaro
+# What's new in the Bizzaro
+<br>
 
-## Library 
+# Library 
 ### -For user personal collection login that stores what you've read
 ### -Keeps clock of all you've read and unlocks more the more you read
+<br>
 
-## Stories
+# Stories
 ### -Story collection page
+<br>
 
-## Locations
+# Locations
 ### -Map click or type in search bar to find place under the map there will be pictures of sicgnificant areas to the stories with descriptions of those areas
 ### -Maybe type character name and get where they are from and have events from those places mentioned in it
+<br>
 
-## Characters
+# Characters
+<br>
 
-## Art Page
+# Art Page
+<br>
 
-## Music
+# Music
 ### -Lyrics
 #### * Connection to stories
 ### -Merch page
+<br>
 
-## Pay section (later on)
+# Pay section (later on)
+<br>
 
-## Contact Us
-
+# Contact Us
 ### -User Input
 ### -Contact Info
 ### -Facebook Pages
