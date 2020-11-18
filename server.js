@@ -4,7 +4,6 @@ const morgan = require('morgan');
 const session = require('express-session');
 const port = process.env.PORT || '3000';
 
-
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 

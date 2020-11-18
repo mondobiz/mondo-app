@@ -10,4 +10,8 @@ router.get('/signin', usersCtrl.signIn);
 
 router.get('/login', usersCtrl.login);
 
+router.get('/home', usersCtrl.home);
+
+router.get('/profile', usersCtrl.profile);
+
 module.exports = router;

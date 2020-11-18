@@ -6,7 +6,9 @@ module.exports = {
     new: newUser,
     signUp,
     signIn,
-    login
+    login,
+    home,
+    profile
 };
 
 function newUser(req, res) {
@@ -45,3 +47,11 @@ function login(req, res) {
         }
     });
 }
+
+function home(req, res) {
+    res.render('users/home');
+};
+
+function profile(req, res) {
+    res.render('users/profile');
+};
