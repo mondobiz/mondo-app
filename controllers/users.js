@@ -10,7 +10,14 @@ module.exports = {
     home,
     profile,
     uArt,
-    uStory
+    uStory,
+    newUp,
+    account,
+    contact,
+    characters,
+    library,
+    locations,
+    stories,
 };
 
 function newUser(req, res) {
@@ -65,3 +72,32 @@ function uArt(req, res) {
 function uStory(req, res) {
     res.render('users/uStory');
 };
+
+function newUp(req, res) {
+    res.render('users/newUp');
+}
+
+function account(req, res) {
+    res.render('users/account');
+}
+
+function contact(req, res) {
+    res.render('users/contact');
+}
+
+function characters(req, res) {
+    res.render('users/characters');
+}
+
+function library(req, res) {
+    res.render('library/library');
+}
+
+function locations(req, res) {
+    res.render('library/locations');
+}
+
+function stories(req, res) {
+    res.render('library/stories');
+}
+

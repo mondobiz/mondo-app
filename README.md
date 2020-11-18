@@ -1,3 +1,73 @@
+# BizzaroApp
+Most of my life I've been passionate about making art. 
+From woodworking, welding, playing music, drawings, digital drawings, and writing.
+Art has been a large part of my life and is important to me. 
+I wanted to build an app where I can share what I make. 
+As I played around with the idea I wondered what if I could do this for everyone. 
+Then I thought of app that I could save my art, whatever the medium, onto it! 
+And if I add other people they could save their art on their own profile, and we can share it to each other and like and comment everyone's creative outlets!
+
+## Technologies Used
+* HTML5
+* CSS3
+* JavaScript
+* Heroku
+* Github
+* JSON
+* Node js
+* MongoDB
+* Express
+* Mongoose
+
+## Wireframe of MondoApp 
+![wire](images/wireFrame2.jpg)
+![wire2](images/wireFrame3.jpg)
+![wire3](images/wireFrame4.jpg)
+![wire4](images/wireFrame5.jpg)
+
+Link to Trello
+https://trello.com/b/NYdlcdNW
+<br>
+
+ERD
+
+User
+  Username
+  Password
+  Email
+  Your Collection
+    Characters
+    Locations
+    Stories
+  comments
+  membership length
+  amount read
+
+Characters
+  image
+  id
+  description
+  stories character is in
+
+Locations
+  image
+  id
+  description
+  stories in the location
+
+Stories
+  image
+  id
+  description
+  content
+  all images from specific story
+
+
+
+
+    
+
+
 
 # What is the MondoApp?
 ### -Social media app you can share art, music, and stories and other people can comment and like
@@ -14,7 +84,18 @@
 As a user, I want [feature], because [reason].
 
 The reason is optional if it's blatantly obvious.
+<!-- Using the RESTful route to send the book's id to the server -->
+<!-- <form action="/books/<%= book._id %>/comments" method="POST"> -->
+  <!-- Be sure name attributes of inputs match the model properties -->
+  <!-- <input name="text">
+  <button type="submit">ADD COMMENT</button>
+</form> -->
 
+<!-- <form action="/comments/<%= comment._id %>?_method=PUT" method="POST"> -->
+  <!-- Value attribute is being set to the comment's current text -->
+  <!-- <input name="text" value="<%= comment.text %>">
+  <button type="submit">UPDATE COMMENT</button>
+</form> -->
 
   <!-- mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
@@ -48,11 +129,7 @@ origin  https://github.com/mondobiz/mondo-app.git (push) -->
 
 
 
-# Wireframe of MondoApp 
-<img src="images/wireFrame2.jpg">
-<img src="images/wireFrame3.jpg">
-<img src="images/wireFrame4.jpg">
-<img src="images/wireFrame5.jpg">
+
 
 
 # CRUD Requirements
@@ -66,9 +143,7 @@ origin  https://github.com/mondobiz/mondo-app.git (push) -->
 ### after you're done reading you can delete the book from your library
 <br>
  
-# Link to Trello
-## https://trello.com/b/NYdlcdNW
-<br>
+
 
 # Stretch Goal
 ### Puzzle Login
