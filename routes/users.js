@@ -13,5 +13,9 @@ router.get('/login', usersCtrl.login);
 router.get('/home', usersCtrl.home);
 
 router.get('/profile', usersCtrl.profile);
+// uArt is the user art submissions
+router.get('/uArt', usersCtrl.uArt);
+// uStory is the user's story submissions
+router.get('/uStory', usersCtrl.uStory);
 
 module.exports = router;

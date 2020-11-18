@@ -10,13 +10,23 @@
 <body>
     <header>
         <nav>
-            <a href="#">Your Bizzaro Profile</a>
-            <a href="#">What's new in the BizzaroRealm</a>
-            <a href="#">MondoLibrary</a>
+            <a href="/users/profile">Your Bizzaro Profile</a>
+            <a href="/users/newUp">What's new in the BizzaroRealm</a>
+            <a href="/library/library">MondoLibrary</a>
         </nav>
     </header>
-        <a href="#" style="font-size: 50px;">What's new in the BizzaroRealm</a><br />
-        <a href="#" style="font-size: 50px;">Tales from the Mondo Bizzaro</a><br />
-        <a href="#" style="font-size: 50px;">Contact Us</a><br />
+    <form action="/users/uStory" method="post">
+        Show us your stories: <input type="text" name="story" />
+        <input type="submit" value="BizzaroButton" />
+    </form>
+    
+    <form action="/users/uArt" method="post">
+        Show us your art: <input type="text" name="art" />
+        <input type="submit" value="BizzaroButton" />
+    </form>
+    
+        <a href="/users/newUp" style="font-size: 50px;">What's new in the BizzaroRealm</a><br />
+        <a href="/library/stories" style="font-size: 50px;">Tales from the Mondo Bizzaro</a><br />
+        <a href="/users/contact" style="font-size: 50px;">Contact Us</a><br />
 </body>
 </html>

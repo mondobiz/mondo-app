@@ -8,7 +8,9 @@ module.exports = {
     signIn,
     login,
     home,
-    profile
+    profile,
+    uArt,
+    uStory
 };
 
 function newUser(req, res) {
@@ -54,4 +56,12 @@ function home(req, res) {
 
 function profile(req, res) {
     res.render('users/profile');
+};
+
+function uArt(req, res) {
+    res.render('users/uArt');
+};
+
+function uStory(req, res) {
+    res.render('users/uStory');
 };
